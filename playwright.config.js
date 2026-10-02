@@ -23,9 +23,6 @@ const config = ({
    trace : 'retain-on-failure',
 
   },
-
-  
- 
 });
  module.exports = config
 
