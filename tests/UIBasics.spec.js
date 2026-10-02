@@ -46,7 +46,7 @@ test("UI Dropdown, Radio button", async({page}) => {
     //await page.pause();
 })
 
-test.only("ChildParent Handling", async({browser}) => {
+test("ChildParent Handling", async({browser}) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     const username = page.locator("#username");
