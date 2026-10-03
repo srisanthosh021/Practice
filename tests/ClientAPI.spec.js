@@ -4,7 +4,7 @@ const loginPayload = {userEmail: process.env.USER1_EMAIL, userPassword: process.
 const orderPayLoad = {orders: [{country: "United States", productOrderedId: "6960eac0c941646b7a8b3e68"}]};
 const orderPayLoad2 = {orders: [{country: "India", productOrderedId: "6960eac0c941646b7a8b3e68"}]};
 
-
+//API
 let response1;
 test.beforeAll( async()=> {
     const apiContext = await request.newContext();  
